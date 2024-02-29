@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+.home {
+  padding: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  flex: 0 1 calc(40% - 20px); 
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+@media only screen and (min-width: 600px) {
+  .product {
+    flex: 0 1 calc(500% - 20px); 
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .product {
+    flex: 0 1 calc(30% - 20px); 
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .product {
+    flex: 0 1 calc(45% - 20px); 
+  }
+}
+
+.product img {
+  width: 60%;
+  height: auto;
+}
+
+.product h2 {
+  margin: 0 0 10px 0;
+}
+
+.product a {
+  color: blue;
+  text-decoration: none;
+}
+
+.product:hover {
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.7), 0 0 20px rgba(0, 255, 0, 0.5), 0 0 30px rgba(0, 255, 0, 0.3);
+}
+
+.search-bar {
+  display: block;
+  width: 50%; 
+  margin: 20px auto; 
+  padding: 10px;
+  font-size: 18px; 
+}
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: black;
+}
+
+.wel {
+  text-align: center;
+  font-size: 5ch;
+  margin-top: 2em;
+}
+
+.wel2 {
+  text-align: center;
+  font-size: 5ch;
+}
+
+.custom-image-container {
+  position: relative;
+  text-align: center;
+}
+
+.full-width-image {
+  width: 100%;
+  height: auto; 
+}
