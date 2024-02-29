@@ -17,7 +17,7 @@ const ProductDetails = ({ product, goBack, addToCart }) => {
           <p>{description}</p>
           <h3>Rating</h3>
           <p>{rating.rate} ({rating.count} reviews)</p>
-          <button className="add-to-cart" onClick={() => addToCart(product)}>Add to Cart</button>
+          <button className="back" onClick={() => addToCart(product)}>Add to Cart</button>
         </div>
       </div>
     </div>
