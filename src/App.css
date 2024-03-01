@@ -29,13 +29,13 @@
 
 @media only screen and (min-width: 800px) {
   .product {
-    flex: 0 1 calc(40% - 20px); 
+    flex: 0 1 calc(30% - 20px); 
   }
 }
 
 @media only screen and (max-width: 600px) {
   .product {
-    flex: 0 1 calc(35% - 20px); 
+    flex: 0 1 calc(45% - 20px); 
   }
 }
 
