@@ -35,7 +35,7 @@
 
 @media only screen and (max-width: 600px) {
   .product {
-    flex: 0 1 calc(250% - 20px); 
+    flex: 0 1 calc(35% - 20px); 
   }
 }
 
