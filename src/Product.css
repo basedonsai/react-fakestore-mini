@@ -1,0 +1,36 @@
+.deets {
+    background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: black;
+    font-weight: 500;
+    display: block;
+    height: 50px;
+    font-size: 1.4em;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 7em;
+    z-index: 2;
+    
+    
+  }
+  
+  .deets:hover {
+    color: #fff;
+  }
+  
+  .deets .deetsspan {
+    align-items: center;
+    background: #0e0e10;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+  }
+  
+  .deets:hover .deetsspan {
+    background: transparent;
+  }
